@@ -1,4 +1,4 @@
-# aws-lambda-go-dynamodb-type-bridge
+# aws-lambda-go-dynamodb-type-bridge [![.github/workflows/check.yml](https://github.com/moznion/aws-lambda-go-dynamodb-type-bridge/actions/workflows/check.yml/badge.svg)](https://github.com/moznion/aws-lambda-go-dynamodb-type-bridge/actions/workflows/check.yml)
 
 A library that makes it easier to unmarshal the `map[string]events.DynamoDBAttributeValue` which comes from `aws/aws-lambda-go/events` into a target struct that uses `dynamodbav` custom tags.
 
