@@ -4,6 +4,12 @@ A library that makes it easier to unmarshal the `map[string]events.DynamoDBAttri
 
 This library uses generics, so it requires Go runtimve version 1.18 or later.
 
+## Motivation
+
+There is no official one-stop solution to convert the `events.DynamoDBAttributeValue` value which comes from `aws/aws-lambda-go` to the attribute value of aws-sdk-go and/or the struct which uses `dynamodbav` custom tags with `aws/aws-sdk-go/service/dynamodb/dynamodbattribute` so far.
+
+Accordingly, this library aims to provide such feature to make it easier with Go generics feature.
+
 ## Synopsis
 
 ```go
