@@ -3,7 +3,7 @@ module github.com/moznion/aws-lambda-go-dynamodb-type-bridge
 go 1.20
 
 require (
-	github.com/aws/aws-lambda-go v1.40.0
+	github.com/aws/aws-lambda-go v1.46.0
 	github.com/aws/aws-sdk-go v1.44.248
 	github.com/stretchr/testify v1.8.2
 )
